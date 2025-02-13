@@ -28,7 +28,7 @@ body{
 }
 
 .cabecalho{
-    padding: 5% 0 0 15%;
+    padding: 2% 0 0 15%;
 }
 
 .cabecalho__menu{
@@ -39,7 +39,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria) ;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -54,7 +54,7 @@ body{
     /*para os elementos não ficarem totalmente nos cantos, inserimos margem para eles ficarem mais centralizados*/
     /* margin: 10% 15%; */
 
-    padding: 8% 15%;
+    padding: 5% 15%;
 
     /*por padrão o comando flex deixam todos os elementos em linha*/
     display: flex;
@@ -112,7 +112,7 @@ body{
     width: 50%;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
 }
 
 .apresentacao__links__subtitulo{
